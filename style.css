@@ -8,8 +8,9 @@ html {
 .keys {
   height: 200px;
   display: flex;
-  flex: 1;
+  /*flex: 1;*/
   align-items: center;
+  align-content: center;
   min-height: 100vh;
   justify-content: center;
   flex-wrap: wrap;
@@ -17,7 +18,7 @@ html {
 
 .key {
   width: 120px;
-  /*height: 120px;*/
+  height: 100px;
   border: 4px solid black;
   font-size: 1.5rem;
   border-radius: 5px;
@@ -28,6 +29,7 @@ html {
   text-shadow: 0 0 10px black;
   margin-right: 1rem;
   margin-left: 1rem;
+  margin-bottom: 1rem;
   text-align: center;
 }
 
