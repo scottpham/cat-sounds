@@ -11,7 +11,7 @@ html {
   align-items: center;
   min-height: 100vh;
   justify-content: center;
-  /*flex-wrap: wrap;*/
+  flex-wrap: wrap;
 }
 
 .key {
